@@ -1,0 +1,38 @@
+/*
+* @Author: ww
+* @Date:   2018-06-13 11:45:43
+* @Last Modified by:   ww
+* @Last Modified time: 2018-07-19 14:32:04
+*/
+/*
+* @Author: ww
+* @Date:   2018-06-14 10:21:33
+* @Last Modified by:   ww
+* @Last Modified time: 2018-06-14 10:49:36
+*/
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f6eee8;
+  overflow: auto; }
+
+.view {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -2rem;
+  width: 4rem;
+  height: 0.66667rem;
+  border: 1px solid red;
+  overflow: hidden; }
+  .view li {
+    width: 4rem;
+    height: 0.66667rem;
+    line-height: 0.66667rem;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }

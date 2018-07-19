@@ -1,0 +1,14 @@
+/*
+* @Author: ww
+* @Date:   2018-06-14 10:21:33
+* @Last Modified by:   ww
+* @Last Modified time: 2018-07-19 14:32:13
+*/
+body{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f6eee8;
+  overflow: auto; }

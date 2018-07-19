@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>走马灯</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/flexible.js"></script>
+    <script src="js/jquery-1.8.3.js"></script>
+
+</head>
+<body>
+	<div class="view">
+		<ul >
+			<li>1学生遭绑架后遇害学生遭绑架后遇害女子遭家暴流产</li>
+            <li>2女子遭家暴流产女子遭家暴流产</li>
+            <li>3男子冒充校花骗财女子遭家暴流产女子遭家暴流产</li>
+            <li>4宁波一工地爆炸将孩子甩床上</li>
+            <li>5男子获刑472年章子怡现身母校</li>
+            <li>1学生遭绑架后遇害学生遭绑架后遇害女子遭家暴流产</li>
+            <li>2女子遭家暴流产女子遭家暴流产</li>
+            <li>3男子冒充校花骗财女子遭家暴流产女子遭家暴流产</li>
+            <li>4宁波一工地爆炸将孩子甩床上</li>
+            <li>5男子获刑472年章子怡现身母校</li>
+		</ul>
+	</div>
+    <script src="js/wScrollUp.js"></script>
+    <script>
+        $(".view").wScrollUp({
+            direction: "marginTop" ,//两个值marginTop和marginLeft,
+            stepTime:1000,//间隔时间
+            scrollTime:500//滚动时间
+        });
+    </script>
+</body>
+</html>

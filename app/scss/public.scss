@@ -1,0 +1,17 @@
+/*
+* @Author: ww
+* @Date:   2018-06-14 10:21:33
+* @Last Modified by:   ww
+* @Last Modified time: 2018-07-19 14:31:49
+*/
+$color :#f6eee8;
+$bai:100%;
+body{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: $bai;
+	height: $bai;
+	background-color:$color;
+	overflow:auto;
+}
